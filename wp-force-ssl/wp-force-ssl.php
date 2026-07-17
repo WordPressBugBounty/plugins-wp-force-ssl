@@ -5,11 +5,11 @@
   Description: Redirect all traffic from HTTP to HTTPS and fix other SSL issues.
   Author: WebFactory Ltd
   Author URI: https://www.webfactoryltd.com/
-  Version: 1.68
+  Version: 1.69
   Text Domain: wp-force-ssl
   Requires at least: 4.6
   Requires PHP: 5.2
-  Tested up to: 6.9
+  Tested up to: 7.0
   License: GPLv2 or later
 
   Copyright 2019 - 2025  WebFactory Ltd  (email: support@webfactoryltd.com)
@@ -1125,8 +1125,7 @@ class wpForceSSL
     $out .= '</tr>';
 
     $out .= '<tr>';
-    $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=personal-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=personal-launch&ref=pricing-table" target="_blank">Lifetime License<br>$59 -&gt; BUY NOW</a>
-    <br>or <a class="button-buy" data-href-org="https://wpforcessl.com/buy/?product=personal-monthly&ref=pricing-table" href="https://wpforcessl.com/buy/?product=personal-monthly&ref=pricing-table" target="_blank">only $6.99 <small>/month</small></a></td>';
+    $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=personal-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=personal-launch&ref=pricing-table" target="_blank">Lifetime License<br>$59 -&gt; BUY NOW</a></td>';
     $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=team-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=team-launch&ref=pricing-table" target="_blank">Lifetime License<br>$69 -&gt; BUY NOW</a></td>';
     $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=agency-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=agency-launch&ref=pricing-table" target="_blank">Lifetime License<br>$119 -&gt; BUY NOW</a></td>';
     $out .= '</tr>';
