@@ -5,14 +5,14 @@
   Description: Redirect all traffic from HTTP to HTTPS and fix other SSL issues.
   Author: WebFactory Ltd
   Author URI: https://www.webfactoryltd.com/
-  Version: 1.69
+  Version: 1.70
   Text Domain: wp-force-ssl
   Requires at least: 4.6
   Requires PHP: 5.2
   Tested up to: 7.0
   License: GPLv2 or later
 
-  Copyright 2019 - 2025  WebFactory Ltd  (email: support@webfactoryltd.com)
+  Copyright 2019 - 2026  WebFactory Ltd  (email: support@webfactoryltd.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
@@ -596,7 +596,7 @@ class wpForceSSL
     echo '<div class="wfssl-container wfssl-container-right">';
     echo '<div class="sidebar-box pro-ad-box">
             <p class="text-center"><a href="https://wpforcessl.com/?ref=wpfssl-free-sidebar-box" target="_blank">
-            <img src="' . esc_url($this->plugin_url) . 'img/wp-force-ssl-logo.png" alt="WP Force SSL PRO" title="WP Force SSL PRO"></a><br><b>PRO version</b> is here! Grab the launch discount - <b>all prices are LIFETIME!</b></p>
+            <img src="' . esc_url($this->plugin_url) . 'img/wp-force-ssl-logo.png" alt="WP Force SSL PRO" title="WP Force SSL PRO"></a><br><b>PRO version</b> is here! Grab the discount - <b>LIFETIME prices!</b></p>
             <ul class="plain-list">
                 <li>15+ Options to Fine-Tune Your SSL</li>
                 <li>Mixed Content Scanner + Fixer</li>
@@ -1054,7 +1054,7 @@ class wpForceSSL
 
     $out .= '<div class="center logo"><a href="https://wpforcessl.com/?ref=wpfssl-free-pricing-table" target="_blank"><img src="' . $this->plugin_url . 'img/wp-force-ssl-logo.png' . '" alt="WP Force SSL PRO" title="WP Force SSL PRO"></a><br>';
 
-    $out .= '<span>Limited PRO Launch Discount - <b>all prices are LIFETIME</b>! Pay once &amp; use forever!</span>';
+    $out .= '<span>Limited PRO Discount - <b>LIFETIME prices</b>! Pay once &amp; use forever!</span>';
     $out .= '</div>';
 
     $out .= '<table id="wpfssl-pro-table">';
@@ -1126,11 +1126,13 @@ class wpForceSSL
 
     $out .= '<tr>';
     $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=personal-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=personal-launch&ref=pricing-table" target="_blank">Lifetime License<br>$59 -&gt; BUY NOW</a></td>';
-    $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=team-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=team-launch&ref=pricing-table" target="_blank">Lifetime License<br>$69 -&gt; BUY NOW</a></td>';
+    $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=team-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=team-launch&ref=pricing-table" target="_blank">Lifetime License<br>$89 -&gt; BUY NOW</a></td>';
     $out .= '<td><a class="button button-buy" data-href-org="https://wpforcessl.com/buy/?product=agency-launch&ref=pricing-table" href="https://wpforcessl.com/buy/?product=agency-launch&ref=pricing-table" target="_blank">Lifetime License<br>$119 -&gt; BUY NOW</a></td>';
     $out .= '</tr>';
 
     $out .= '</table>';
+
+    $out .= '<div class="center upsell-footer-2">Need the plugin only for a <b>short period of time</b>? <a class="button-buy" target="_blank" data-href-org="https://wpforcessl.com/buy/?product=personal-monthly&ref=pricing-table" href="https://wpforcessl.com/buy/?product=personal-monthly&ref=pricing-table"><b>Get it for ONLY $9.99</b><small> /month</small></a> &amp; cancel any time!</div>';
 
     $out .= '<div class="center footer"><b>100% No-Risk Money Back Guarantee!</b> If you don\'t like the plugin over the next 7 days, we will happily refund 100% of your money. No questions asked! Payments are processed by our merchant of records - <a href="https://paddle.com/" target="_blank">Paddle</a>.</div></div>';
 

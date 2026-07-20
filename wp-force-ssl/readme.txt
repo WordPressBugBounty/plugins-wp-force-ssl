@@ -4,7 +4,7 @@ Tags: ssl, force ssl, https, ssl certificate, mixed content
 Requires at least: 4.6
 Tested up to: 7.0
 Requires PHP: 5.2
-Stable Tag: 1.69
+Stable Tag: 1.70
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,10 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 
 == Changelog ==
+= v1.70 =
+- 2026/07/20
+- minor update
+
 = v1.69 =
 - 2026/05/19
 - minor update
